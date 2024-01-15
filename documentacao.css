@@ -1,0 +1,313 @@
+/*
+	ESTILO COMUM À DOCUMENTAÇÃO DAS BIBLIOTECAS:
+	
+	- CombinarTeclas
+	- JanelaPersonalizada
+	- WindowsLikeMenu
+	
+	DESENVOLVIDO POR REYNOLDS COSTA
+*/
+
+body, div.bloco span, div.codigo, table.explicacao_menu th {
+	background:#f1eeee
+}
+
+div.bloco span, div.codigo {
+	font-family:Lucida Console
+}
+
+.w100 {
+	width:100% !important
+}
+
+body {
+	margin:0;
+	user-select:none
+}
+
+h1 {
+	font-size:24px;
+	margin-top:5px
+}
+
+h3 {
+	margin-top:30px
+}
+
+h3.sub {
+	margin-top:0;
+	font-style:italic
+}
+
+#menu_JP {
+	position:fixed;
+	margin-left:-10px;
+	height:-webkit-fill-available;
+	overflow:auto;
+	margin-top:-4px;
+	padding:0 13px;
+	background:#8FBFCC
+}
+
+#menu_JP, div.bloco {
+	font-family:Tahoma
+}
+
+#menu_JP, table.explicacao_menu {
+	font-size:12px
+}
+
+#menu_JP ul {
+	padding-inline-start:18px
+}
+
+#menu_JP li {
+	margin-top:5px
+}
+
+div.bloco, td.obs {
+	text-align:justify
+}
+
+div.bloco {
+	background:#fff;
+	padding:20px;
+	margin:20px;
+    box-shadow:0px 2px 38px 13px rgb(0 0 0 / 22%);
+    font-size:14px
+}
+
+details > div.codigo {
+	margin-top:10px
+}
+
+div.codigo, #explicacao {
+	padding:10px;
+	border:2px dotted #000;
+	border-radius:10px;
+	margin-bottom:1em
+}
+
+div.codigo div, #explicacao_texto {
+	overflow:auto;
+	max-height:400px
+}
+
+div.codigo p {
+	margin:5px 0;
+	color:rgb(0,82,67)
+}
+
+div.bloco span {
+	text-indent:0
+}
+
+table.explicacao > tbody > tr > td {
+	width:50%;
+	max-width:0
+}
+
+table.explicacao_menu {
+	border-collapse: collapse
+}
+
+table.explicacao_menu td, table.explicacao_menu th {
+	padding: 5px 10px
+}
+
+table.explicacao_menu ul {
+	padding:0;
+	margin:0 0 0 20px
+}
+
+div.codigo-inline {
+	margin-block-start:1em;
+	margin-block-end:1em;
+	margin-inline-start:0px;
+	margin-inline-end:0px
+}
+
+td.explicacao_btn, div.codigo p, #explicacao_titulo, div.codigo-inline div {
+	white-space:nowrap
+}
+
+div.bloco span, div.codigo-inline div, ul.reservadas > li {
+	display:inline-block
+}
+
+td.explicacao_btn button {
+	width:35px
+}
+
+#explicacao_codigo span {
+	cursor:pointer
+}
+
+#explicacao_texto > div {
+	display:none
+}
+
+span.pasta, span.JavaScript_reservado {
+	font-style:italic
+}
+
+span.HTML_tag {
+	color:rgb(0,0,255)
+}
+
+span.HTML_atributo {
+	color:rgb(255,0,0)
+}
+
+span.JavaScript_reservado {
+	color:rgb(35,0,193)
+}
+
+span.JavaScript_funcao {
+	color:rgb(0,129,167)
+}
+
+span.lib_funcao {
+	color:rgb(219,58,52)
+}
+
+span.arquivo {
+	color:rgb(128,0,255)
+}
+
+span.atributo {
+	color:rgb(19,111,99)
+}
+
+span.booleano {
+	color:rgb(32,164,243)
+}
+
+span.categoria {
+	color:rgb(134,34,36)
+}
+
+span.classe {
+	color:rgb(176,157,28)
+}
+
+span.comentario {
+	color:rgb(132,176,130)
+}
+
+span.funcao {
+	color:rgb(243,66,19)
+}
+
+span.numero {
+	color:rgb(215,65,167)
+}
+
+span.parametro {
+	color:rgb(12,172,142)
+}
+
+span.texto {
+	color:rgb(96,92,78)
+}
+
+span.variavel {
+	color:rgb(54,10,20)
+}
+
+span.ativo {
+	cursor:default !important
+}
+
+a.repo_link, a.repo_link2 {
+    color:#00F;
+    text-decoration:none
+}
+
+a.repo_link:hover, a.repo_link2:hover {
+	text-decoration:underline
+}
+
+#menu_JP a.repo_link, a.repo_link2 {
+	color:#000
+}
+
+td.obs {
+	font-size:11px;
+	width:99%
+}
+
+td.vtop {
+	vertical-align:top
+}
+
+ul.reservadas {
+	padding:0
+}
+
+ul.reservadas > li {
+    margin:0 20px 20px 0;
+    text-align:left;
+    vertical-align:top
+}
+
+ul.reservadas ul {
+	margin-top:5px
+}
+
+ul.reservadas span {
+	background:inherit;
+	font-size:15px
+}
+
+p.nivel1 {
+	text-indent:30px
+}
+
+p.nivel2 {
+	text-indent:60px
+}
+
+p.nivel3 {
+	text-indent:90px
+}
+
+p.nivel4 {
+	text-indent:120px
+}
+
+p.nivel5 {
+	text-indent:150px
+}
+
+p.nivel6 {
+	text-indent:180px
+}
+
+p.nivel7 {
+	text-indent:210px
+}
+
+p.nivel8 {
+	text-indent:240px
+}
+
+p.nivel9 {
+	text-indent:270px
+}
+
+p.nivel10 {
+	text-indent:300px
+}
+
+p.nivel11 {
+	text-indent:330px
+}
+
+p.nivel12 {
+	text-indent:360px
+}
+
+p.nivel13 {
+	text-indent:390px
+}
